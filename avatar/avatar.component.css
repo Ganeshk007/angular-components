@@ -1,0 +1,24 @@
+.avatar-container {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: calc(0.4 * var(--avatar-size, 50px));
+    color: #888;
+    line-height: var(--avatar-size, 50px);
+    border: 1px solid #ddd;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+}
+
+.avatar-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    font-weight: bold;
+    color: white;
+}
